@@ -3,10 +3,13 @@
 using namespace std;
 
 int main() {
-    cout << "    /|" << endl;
-    cout << "   / |" << endl;
-    cout << "  /  |" << endl;
-    cout << " /   |" << endl;
-    cout << "/____|" << endl;
+
+    string name = "Bob";
+    int age;
+    age = 36;
+
+    cout << "My name is" << name << endl;
+    cout << "I am " << age << " years old" << endl;
+
     return 0;
 }
